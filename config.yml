@@ -1,0 +1,14 @@
+PARTICIPANTS: # Phone Numbers must include +1 or the international number per Twilio specifications.
+  - Chris <+12345689000>
+  - Jordan <+12345689000>
+  - Johnny <+12345689000>
+  - Sam <+12345689000>
+  - Isaac <+12345689000>
+  - Tom <+1234568900>
+
+DONT-PAIR: # 2-way - Jordan cannot get Johnny and Johnny cannot get Jordan
+  - Jordan, Johnny
+
+DONT-REPEAT: # 1-way - Chris cannot get Johnny but Johnny can get Chris. This is great for preventing a repeat of a previous year Secret Santa.
+  - Chris, Johnny
+  - Jordan, Chris

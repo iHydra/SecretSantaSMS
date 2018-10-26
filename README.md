@@ -1,7 +1,7 @@
 # Secret Santa SMS
-Using Twilio API, send each Santa their Santee's name directly to their phone. Supports no-match 1-way and 2-way.
+Using [Twilio API](https://www.twilio.com/), send each Santa their Santee's name directly to their phone. Supports no-match 1-way and 2-way.
 
-https://www.twilio.com/
+![SMS](https://i.imgur.com/0GZKWz5.jpg)
 
 ### No Match 1-Way
   ['Chris', 'Johnny']

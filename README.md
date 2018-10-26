@@ -27,9 +27,10 @@ Put random name in `config.yml` >> `DONT-REPEAT` and `DONT-PAIR` if you do not w
 
 #### Depending on how Python is configured...
 `python3 santa.py --send` OR `python santa.py --send` to actually send out the SMS
+
 `python3 santa.py` OR `python santa.py` to test it locally and NOT send out the SMS
 
 
-### Credits
+# Credits
 
 This code was derived from https://github.com/underbluewaters/secret-santa and modified to work with SMS (Twilio) and added the functionality of 1-way block. 

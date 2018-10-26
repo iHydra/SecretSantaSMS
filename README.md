@@ -23,6 +23,13 @@ Update `config.yml` with participants, 1-way and 2-way blocks. Edit `santa.py` w
 
 Put random name in `config.yml` >> `DONT-REPEAT` and `DONT-PAIR` if you do not want to have any blocks. i.e. `  - NoName`
 
+# Running
+
+#### Depending on how Python is configured...
+`python3 santa.py --send` OR `python santa.py --send` to actually send out the SMS
+`python3 santa.py` OR `python santa.py` to test it locally and NOT send out the SMS
+
+
 ### Credits
 
 This code was derived from https://github.com/underbluewaters/secret-santa and modified to work with SMS (Twilio) and added the functionality of 1-way block. 

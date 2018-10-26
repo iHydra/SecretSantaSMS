@@ -4,7 +4,7 @@ PARTICIPANTS: # Phone Numbers must include +1 or the international number per Tw
   - Johnny <+12345689000>
   - Sam <+12345689000>
   - Isaac <+12345689000>
-  - Tom <+1234568900>
+  - Tom <+12345689000>
 
 DONT-PAIR: # 2-way - Jordan cannot get Johnny and Johnny cannot get Jordan
   - Jordan, Johnny

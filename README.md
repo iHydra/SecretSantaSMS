@@ -14,6 +14,9 @@ https://www.twilio.com/
   Jordan and Johnny are brothers, will not be given each other at all.
 
 # Configuration
+
+SMS Python QuickStart https://www.twilio.com/docs/sms/quickstart/python
+
 Register on Twilio, add funds to the wallet. Purchase a phone number, create Programmable SMS project. Account SID and Auth Token are required for this to function along with the phone number.
 
 Update `config.yml` with participants, 1-way and 2-way blocks. Edit `santa.py` with the new new `Account SID` and `auth_token` and `twilio_number`. Line `114` has the SMS message, feel free to customize as you find fit.
